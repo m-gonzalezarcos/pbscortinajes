@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* comienzo generales */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 16px;
+}
+/* cierre de generales */
+
+/* comienzo de nav */
+.navbar {
+	background-color: #44d1b2;
+}
+
+.navbar-brand {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 2px 1px 2px #000000;
+}
+
+.nav-item {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 500;   
+}
+
+.nav-item:hover {
+    background-color:#343a40;
+    transition: 1s all;
+}
+/* cierre de nav */
+
+/* Comienzo de header */
+header {
+	margin-top: 5%;
+  	background-image: url('../img/imagen-principal.jpg');
+  	background-repeat: no-repeat;
+  	background-position: top center;
+  /*background-size: cover; ocupa todo el espacio del contenedor*/
+  	background-size: cover;
+  	background-attachment: fixed;
+  	height: 450px;
+  	display: flex;
+  	align-items: center;
+  	text-align: center;
+}
+
+header h1 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 2px 1px 2px #000000;
+}
+
+header p {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #000000;
+}
+/* cierre de header */
+
+/*Comienzo sección nuestra empresa */
+.nuestra-empresa {
+	margin-top: 5%;	
+}
+
+.nuestra-empresa img {
+	border-radius: 100%;
+}
+
+.nuestra-empresa h2 {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.parrafo-empresa {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: #7b7b7b;
+	text-align: justify;
+	text-indent: 15px;
+}
+
+.parrafo-empresa span {
+	color: #44d1b2;
+	font-weight: 500;
+}
+/* cierre sección nuestra empresa */
+
+/* comienzo sección servicios */
+.servicios {
+	margin-top: 5%;
+	background-color: #BF8E63;
+	/*background-image: linear-gradient(to right, #fed198, rgba(254, 209, 152, 0.5));*/
+	padding: 1% 0 2% 0;
+}
+
+.servicios h2 {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.servicios .titulo-servicios {
+	background-color: #44d1b2;
+	margin-top: -1%;
+}
+
+.servicios .subtitulo-asesoria {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.servicios .parrafo-asesoria {
+	font-family: 'open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.servicios .subtitulo-medidas {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.servicios .parrafo-medidas {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.servicios .subtitulo-instalacion {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.servicios .parrafo-instalacion {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.servicios .subtitulo-cortinas {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.servicios .parrafo-cortinas {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.servicios .subtitulo-restauracion {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.servicios .parrafo-restauracion {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+/* Cierre sección servicios */
+
+/* comienzo sección nosotros */
+.nosotros {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.nosotros .don-pedro {
+	margin-top: 12%;
+}
+
+.nosotros .titulo-pbs {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 2.0em;
+	font-weight: bold;
+}
+
+.nosotros .texto-somos {
+	font-family: 'roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: justify;
+	text-indent: 15px;
+	color: #7b7b7b;
+}
+/* cierre sección nosotros */
+
+/* comienzo sección galería */
+.galeria {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.galeria .fotos {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.galeria .card {
+	border: none !important;
+}
+
+.galeria .card-body .btn {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.galeria .card-body .card-title{
+	font-family: 'helvetica', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+/* cierre sección galería */
+
+/* comienzo modal galería */
+.modal-header .modal-title {
+	font-family: 'Helvetica', sans-serif;
+}
+
+.modal-footer .btn {
+	font-family: 'Open sans', sans-serif;
+}
+/* cierre modal galería */
+
+/* comienzo sección preguntas frecuentes */
+.faq {
+	background-color: #A68160;
+	margin-top: 5%;
+}
+
+.faq .titulo-preguntas {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	background-color: #44d1b2;
+}
+
+.faq .caja-faq {
+	padding-bottom: 2%;
+}
+
+.faq .caja-faq .accordion {
+  	color: #ffffff;
+  	cursor: pointer;
+  	padding: 18px;
+  	width: 100%;
+  	border: none;
+  	text-align: left;
+  	outline: none;
+  	font-size: 15px;
+  	transition: 0.4s;
+  	background-color: transparent;
+  	font-family: 'Open sans', sans-serif;
+  	font-weight: bold;
+}
+
+.faq .caja-faq .active, .accordion:hover {
+  	background-color: transparent;
+  	color: #ffffff;
+}
+
+.faq .caja-faq .accordion:after {
+  	content: '\002B';
+  	color: #ffffff;
+  	font-weight: bold;
+  	float: right;
+  	margin-left: 5px;
+  	font-size: 20px;
+}
+
+.faq .caja-faq .active:after {
+  	content: "\2212";
+}
+
+.faq .panel {
+  	max-height: 0;
+  	background-color: transparent;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+  	font-family: 'Open sans', sans-serif;
+  	font-size: 1em;
+  	font-weight: 400;
+  	color: #ffffff;
+  	border-bottom: 1px solid #ffffff;	
+}
+
+.faq .panel p {
+  	padding: 1%;
+}
+/* cierre sección preguntas frecuentes*/
+
+/* sección mapa ubicación */
+.mapa-ubicacion {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.mapa-ubicacion .contactenos {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.mapa-ubicacion .telefono {
+	font-family: 'Helvetiva', sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.mapa-ubicacion .correo {
+	font-family: 'Open sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+/* sección mapa ubicación */
+
+/* footer */
+.pie-pagina {
+	background-color: #44d1b2;
+}
+
+.pie-pagina small {
+	font-family: 'helvetica', sans-serif;
+}
+
+/* link red social whatsapp */
+.red-social {
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	padding: 0.5%;
+	text-shadow: 1px 2px 5px #000000;
+}
+
+.fa-whatsapp {
+	color: #00BB2D;
+	text-shadow: 1px 2px 5px #000000;
+}
+/* cierre links red social */
+
+@media screen and (min-width: 0px) and (max-width: 576px){
+header {
+	display: none;
+}
+
+/* titulo del nav */
+.navbar-brand {
+	font-size: 2em;
+}
+
+/* titulo de nuestra empresa */
+.nuestra-empresa h2 {
+	font-size: 1.7em;
+}
+
+/* titulo de servicios */
+.servicios h2 {
+	font-size: 1.7em;
+}
+
+/* article de sección servicios */
+.servicios .img-cortina {
+	margin-top: 0;
+}
+
+/* subtitulo cortinas */
+.servicios .subtitulo-cortinas {
+	font-size: 1.3em;
+	margin-top: 0;
+}
+
+/* subtitulo productos */
+.servicios .subtitulo-productos {
+	font-size: 1.3em;
+	margin-top: 0;
+}
+
+/* subtitulo restauracion */
+.servicios .subtitulo-restauracion {
+	font-size: 1.3em;
+}
+
+/* titulos galeria */
+.galeria .fotos {
+	font-size: 1.7em;
+}
+
+/* titulo preguntas frecuentes */
+.faq .titulo-preguntas {
+	font-size: 1.7em;
+}
+
+/* subtitulo contactenos */
+.mapa-ubicacion .contactenos {
+	font-size: 1.3em;
+}
+
+/* subtitulo telefono */
+.mapa-ubicacion .telefono {
+	font-size: 1.7em;	
+}
+
+/* subtitulo correo */
+.mapa-ubicacion .correo {
+	font-size: 1.2em;
+}
+
+/* link red social whatsapp */
+.fa-whatsapp {
+	font-size: 45px!important;
+}
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px){
+header {
+	display: none;
+}	
+
+/* titulo navbar */
+.navbar-brand {
+	font-size: 2.3em !important;
+}
+
+/* titulo nuestra emppresa */
+.nuestra-empresa h2 {
+	font-size: 1.8em;
+}
+
+/* titulo servicios */
+.servicios h2 {
+	font-size: 1.8em;
+}
+
+/* article sección servicios */
+.servicios .img-cortina {
+	margin-top: 0;
+}
+
+.servicios .subtitulo-cortinas {
+	font-size: 1.4em;
+	margin-top: 0;
+}
+
+/* subtitulo productos */
+.servicios .subtitulo-productos {
+	font-size: 1.4em;
+	margin-top: 0;
+	text-align: center;
+}
+
+/* subtitulo restauracion */
+.servicios .subtitulo-restauracion {
+	font-size: 1.4em;
+}
+
+/* titulos galeria */
+.galeria .fotos {
+	font-size: 1.8em;
+}
+
+/* titulo preguntas frecuentes */
+.faq .titulo-preguntas {
+	font-size: 1.8em;
+}
+
+/* subtitulo contactenos */
+.mapa-ubicacion .contactenos {
+	font-size: 1.4em;
+}
+
+/* subtitulo telefono */
+.mapa-ubicacion .telefono {
+	font-size: 1.8em;	
+}
+
+/* subtitulo correo */
+.mapa-ubicacion .correo {
+	font-size: 1.3em;
+}
+
+/* link red social whatsapp */
+.fa-whatsapp {
+	font-size: 50px!important;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+/* titulo del nav */
+.navbar-brand {
+	font-size: 2.5em;
+}
+
+/* titulo de nuestra empresa */
+.nuestra-empresa h2 {
+	font-size: 2em;
+}
+
+/* titulo de servicios */
+.servicios h2 {
+	font-size: 2em;
+}
+
+/* article de sección servicios */
+.servicios .img-cortina {
+	margin-top: 2.4%;
+}
+
+/* subtitulo cortinas */
+.servicios .subtitulo-cortinas {
+	font-size: 1.4em;
+	margin-top: 0;
+}
+
+/* subtitulo productos */
+.servicios .subtitulo-productos {
+	font-size: 1.4em;
+	margin-top: 0;
+}
+
+/* subtitulo restauracion */
+.servicios .subtitulo-restauracion {
+	font-size: 1.3em;
+}
+
+/* titulos galeria */
+.galeria .fotos {
+	font-size: 2em;
+}
+
+/* titulo preguntas frecuentes */
+.faq .titulo-preguntas {
+	font-size: 2em;
+}
+
+/* subtitulo contactenos */
+.mapa-ubicacion .contactenos {
+	font-size: 1.5em;
+}
+
+/* subtitulo telefono */
+.mapa-ubicacion .telefono {
+	font-size: 2em;	
+}
+
+/* subtitulo correo */
+.mapa-ubicacion .correo {
+	font-size: 1.4em;
+}
+/* link red social whatsapp */
+.fa-whatsapp {
+	font-size: 55px!important;
+}
+}
